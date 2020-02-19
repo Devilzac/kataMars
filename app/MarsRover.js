@@ -27,7 +27,6 @@ module.exports = class MarsRover{
           let currentCords= this.actualCords();
           if(currentCords.direction== this.direction.North){
                this.cords.positionY++;
-
           }
           return this.cords;
 

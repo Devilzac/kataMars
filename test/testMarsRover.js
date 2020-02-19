@@ -34,7 +34,6 @@ describe('implement commands that move the rover forward/backward (f,b).', funct
             let mars = new marsRover();
             let direction = mars.actualCords();
 
-            /*  console.log("direction: ",fn); */
 
             var result = mars.forward();
 
